@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-title>
+      Dinosaurs
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list>
+    <ion-item *ngFor="let dino of dinosaurs" text-wrap>
+      <ion-thumbnail item-left>
+        <img [src]="dino.image">
+      </ion-thumbnail>
+      <strong>{{dino.name}}</strong>      
+      <button ion-button clear item-right (click)="goToDetails(dino)">View</button>
+    </ion-item>
+  </ion-list>
+</ion-content>

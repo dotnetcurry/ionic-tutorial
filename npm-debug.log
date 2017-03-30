@@ -1,0 +1,45 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Users\\110190\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'run',
+1 verbose cli   'ionic:serve',
+1 verbose cli   '--',
+1 verbose cli   '--v2',
+1 verbose cli   '--address',
+1 verbose cli   '0.0.0.0',
+1 verbose cli   '--port',
+1 verbose cli   '8100',
+1 verbose cli   '--livereload-port',
+1 verbose cli   '35729' ]
+2 info using npm@3.10.8
+3 info using node@v6.9.5
+4 verbose run-script [ 'preionic:serve', 'ionic:serve', 'postionic:serve' ]
+5 info lifecycle ionic-hello-world@~preionic:serve: ionic-hello-world@
+6 silly lifecycle ionic-hello-world@~preionic:serve: no script for preionic:serve, continuing
+7 info lifecycle ionic-hello-world@~ionic:serve: ionic-hello-world@
+8 verbose lifecycle ionic-hello-world@~ionic:serve: unsafe-perm in lifecycle true
+9 verbose lifecycle ionic-hello-world@~ionic:serve: PATH: C:\Users\110190\AppData\Roaming\npm\node_modules\npm\bin\node-gyp-bin;D:\Me\Blogs-And-Articles\Blogs%20and%20documents\dinosaur-wiki\node_modules\.bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Git\cmd;C:\Program Files (x86)\Microsoft VS Code;C:\Users\110190\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files (x86)\WebEx\Productivity Tools;C:\Program Files\nodejs\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\110190\AppData\Roaming\npm\node_modules\flow-bin;C:\Users\110190\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\110190\AppData\Roaming\npm
+10 verbose lifecycle ionic-hello-world@~ionic:serve: CWD: D:\Me\Blogs-And-Articles\Blogs%20and%20documents\dinosaur-wiki
+11 silly lifecycle ionic-hello-world@~ionic:serve: Args: [ '/d /s /c',
+11 silly lifecycle   'ionic-app-scripts serve "--v2" "--address" "0.0.0.0" "--port" "8100" "--livereload-port" "35729"' ]
+12 verbose stack Error: kill ENOSYS
+12 verbose stack     at exports._errnoException (util.js:1022:11)
+12 verbose stack     at process.kill (internal/process.js:172:13)
+12 verbose stack     at process.listener (C:\Users\110190\AppData\Roaming\npm\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:86:15)
+12 verbose stack     at emitNone (events.js:91:20)
+12 verbose stack     at process.emit (events.js:185:7)
+12 verbose stack     at processEmit (C:\Users\110190\AppData\Roaming\npm\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:146:32)
+12 verbose stack     at processEmit (C:\Users\110190\AppData\Roaming\npm\node_modules\npm\node_modules\npm-registry-client\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:146:32)
+12 verbose stack     at Signal.wrap.onsignal (internal/process.js:199:44)
+13 verbose cwd D:\Me\Blogs-And-Articles\Blogs%20and%20documents\dinosaur-wiki
+14 error Windows_NT 6.1.7601
+15 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\110190\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "run" "ionic:serve" "--" "--v2" "--address" "0.0.0.0" "--port" "8100" "--livereload-port" "35729"
+16 error node v6.9.5
+17 error npm  v3.10.8
+18 error code ENOSYS
+19 error errno ENOSYS
+20 error syscall kill
+21 error kill ENOSYS
+22 error If you need help, you may report this error at:
+22 error     <https://github.com/npm/npm/issues>
+23 verbose exit [ 1, true ]
